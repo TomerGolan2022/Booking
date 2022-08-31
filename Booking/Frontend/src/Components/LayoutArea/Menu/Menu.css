@@ -1,0 +1,22 @@
+.Menu {
+    height: 100%;
+    justify-content: center;
+    font-size: x-large;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.Menu > .active {
+    color: blueviolet;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.Menu :hover{
+    font-weight: bolder;
+}
+
+.Menu > :any-link {
+    text-decoration: none;
+}

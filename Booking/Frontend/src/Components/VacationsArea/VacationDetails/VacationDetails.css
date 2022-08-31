@@ -1,0 +1,111 @@
+.VacationDetails :any-link {
+	text-decoration: none;
+}
+
+.card-details {
+	background-color: white;
+	color: #272727;
+	padding: 20px;
+	border-radius: 10px;
+	border: 0px;
+	border-color: white;
+	border-style: solid;
+	transition: 200ms;
+	min-width: 710px;
+	max-width: 710px;
+	min-height: 640px;
+	max-height: 640px;
+}
+
+.card-details:hover {
+	transition: 200ms;
+	border: 3px;
+	border-color: white;
+	border-style: solid;
+}
+
+.card-details-price {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	font-size: large;
+	font-weight: bolder;
+}
+
+.card-details-header {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+
+}
+
+.details-profile {
+	width: 4rem;
+	height: 4rem;
+	background-color: blueviolet;
+	border-radius: 50%;
+	margin: 10px;
+	font-size: 30pt;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	justify-content: center;
+}
+
+.details-letter {
+	vertical-align: middle;
+}
+
+.card-details-title-group {
+	justify-content: center;
+}
+
+.card-details-title {
+	flex: 0.5;
+	font-size: xx-large;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.card-details-date {
+	flex: 0.3;
+	font-size: medium;
+	margin-top: 0;
+}
+
+.card-details-image{
+	min-width: 700px;
+	max-width: 700px;
+	min-height: 450px;
+	max-height: 450px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+
+.card-details-like-icon {
+	height: 25px;
+}
+
+.card-details-text {
+	width: 350px;
+	font-size: large;
+}
+
+.card-details-like-bar {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	justify-content: space-between;
+}
+
+.card-details-like-bar> :any-link {
+	text-decoration: none;
+}
+
+.details-like-text {
+	font-size: medium;
+	margin-left: 10px;
+}

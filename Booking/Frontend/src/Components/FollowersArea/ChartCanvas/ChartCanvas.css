@@ -1,0 +1,5 @@
+.ChartCanvas {
+    display: inline-flex;
+    width: 60%;
+	background-color: white;
+}

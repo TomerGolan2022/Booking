@@ -1,0 +1,47 @@
+.Login>form {
+  width: 300px;
+  color: #272727;
+  font-weight: bolder;
+}
+
+.Login>h2 {
+  color: #272727;
+  text-align: center;
+}
+
+.Login>form>p> :any-link {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.Login span {
+  display: flex;
+  color: red;
+  font-size: smaller;
+  font-weight: normal;
+  align-items: flex-end;
+}
+
+.Login input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.Login button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.Login button:hover {
+  opacity: 0.9;
+}

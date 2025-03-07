@@ -1,0 +1,26 @@
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.Box {
+    display: inline-table;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.258);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px none; 
+    text-align: left;
+    color: blueviolet;
+}
+
+a {
+    color: blueviolet;
+}

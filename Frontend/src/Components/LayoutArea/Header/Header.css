@@ -1,0 +1,12 @@
+.Header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Header h1 {
+    padding-top: 20px;
+    color: blueviolet;
+    font-size: 400%;
+}

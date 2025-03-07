@@ -1,0 +1,26 @@
+.AuthMenu {
+    background-color: blueviolet;
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.AuthMenu > span >  :any-link {
+    color: white;
+    text-decoration: none;
+}
+
+.AuthMenu > span >  :hover {
+    color: white;
+    font-weight: bolder;
+}
+
+.AuthMenu > span >  .active {
+    color: white;
+    font-weight: bolder;
+}

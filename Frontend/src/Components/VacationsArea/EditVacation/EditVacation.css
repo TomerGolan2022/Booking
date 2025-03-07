@@ -1,0 +1,62 @@
+ .EditVacation>form {
+     width: 300px;
+     color: #272727;
+     font-weight: bolder;
+ }
+
+ .EditVacation>h2 {
+     color: #272727;
+     text-align: center;
+ }
+
+ .EditVacation>form>p> :any-link {
+     text-decoration: none;
+     color: blueviolet;
+ }
+
+ .EditVacation span {
+     display: flex;
+     color: red;
+     font-size: smaller;
+     font-weight: normal;
+     align-items: flex-end;
+ }
+
+ .EditVacation textarea,
+ input[type=text],
+ input[type=Date],
+ input[type=number],
+ input[type=file] {
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     box-sizing: border-box;
+ }
+
+ .EditVacation button {
+     background-color: #04AA6D;
+     color: white;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border: none;
+     cursor: pointer;
+     width: 100%;
+ }
+
+ .EditVacation button:hover {
+     opacity: 0.9;
+ }
+
+ .EditVacation :any-link {
+     text-decoration: none;
+ }
+
+ .EditVacation img {
+     width: 50px;
+     height: 50px;
+     position: absolute;
+     transform: translate(-53px, -20px);
+     border: 1px solid black;
+ }
